@@ -223,13 +223,13 @@
                                     <li>It gives a brown egg shell.</li>
                                 </ul>
                                 </p>
-                                <div class="d-flex justify-content-between align-items-center">
+                                {{-- <div class="d-flex justify-content-between align-items-center">
                                     <div class="btn-group">
                                         <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
                                         <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
                                     </div>
                                     <small class="text-muted">9 mins</small>
-                                </div>
+                                </div> --}}
                             </div>
                         </div>
                     </div>
@@ -245,13 +245,13 @@
                                     <li>It gives a brown egg shell.</li>
                                 </ul>
                                 </p>
-                                <div class="d-flex justify-content-between align-items-center">
+                                {{-- <div class="d-flex justify-content-between align-items-center">
                                     <div class="btn-group">
                                         <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
                                         <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
                                     </div>
                                     <small class="text-muted">9 mins</small>
-                                </div>
+                                </div> --}}
                             </div>
                         </div>
                     </div>
@@ -267,13 +267,13 @@
                                     <li>It gives a brown egg shell.</li>
                                 </ul>
                                 </p>
-                                <div class="d-flex justify-content-between align-items-center">
+                                {{-- <div class="d-flex justify-content-between align-items-center">
                                     <div class="btn-group">
                                         <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
                                         <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
                                     </div>
                                     <small class="text-muted">9 mins</small>
-                                </div>
+                                </div> --}}
                             </div>
                         </div>
                     </div>
@@ -290,13 +290,13 @@
                                     <li>At 4 months, they are ready to be sold</li>
                                 </ul>
                                 </p>
-                                <div class="d-flex justify-content-between align-items-center">
+                                {{-- <div class="d-flex justify-content-between align-items-center">
                                     <div class="btn-group">
                                         <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
                                         <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
                                     </div>
                                     <small class="text-muted">9 mins</small>
-                                </div>
+                                </div> --}}
                             </div>
                         </div>
                     </div>
@@ -313,13 +313,13 @@
                                     <li>Most feed efficient</li>
                                 </ul>
                                 </p>
-                                <div class="d-flex justify-content-between align-items-center">
+                                {{-- <div class="d-flex justify-content-between align-items-center">
                                     <div class="btn-group">
                                         <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
                                         <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
                                     </div>
                                     <small class="text-muted">9 mins</small>
-                                </div>
+                                </div> --}}
                             </div>
                         </div>
                     </div>
@@ -336,13 +336,13 @@
                                     <li>Most feed efficient</li>
                                 </ul>
                                 </p>
-                                <div class="d-flex justify-content-between align-items-center">
+                                {{-- <div class="d-flex justify-content-between align-items-center">
                                     <div class="btn-group">
                                         <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
                                         <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
                                     </div>
                                     <small class="text-muted">9 mins</small>
-                                </div>
+                                </div> --}}
                             </div>
                         </div>
                     </div>
@@ -358,13 +358,13 @@
                                     <li>Broiler concentrates</li>
                                 </ul>
                                 </p>
-                                <div class="d-flex justify-content-between align-items-center">
+                                {{-- <div class="d-flex justify-content-between align-items-center">
                                     <div class="btn-group">
                                         <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
                                         <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
                                     </div>
                                     <small class="text-muted">9 mins</small>
-                                </div>
+                                </div> --}}
                             </div>
                         </div>
                     </div>
@@ -381,13 +381,13 @@
                                     <li>Kuroilers</li>
                                 </ul>
                                 </p>
-                                <div class="d-flex justify-content-between align-items-center">
+                                {{-- <div class="d-flex justify-content-between align-items-center">
                                     <div class="btn-group">
                                         <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
                                         <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
                                     </div>
                                     <small class="text-muted">9 mins</small>
-                                </div>
+                                </div> --}}
                             </div>
                         </div>
                     </div>
@@ -403,13 +403,13 @@
                                     <li>Ready for brooding</li>
                                 </ul>
                                 </p>
-                                <div class="d-flex justify-content-between align-items-center">
+                                {{-- <div class="d-flex justify-content-between align-items-center">
                                     <div class="btn-group">
                                         <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
                                         <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
                                     </div>
                                     <small class="text-muted">9 mins</small>
-                                </div>
+                                </div> --}}
                             </div>
                         </div>
                     </div>
