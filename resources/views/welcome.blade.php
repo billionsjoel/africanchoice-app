@@ -282,6 +282,7 @@
                         <div class="card shadow-sm">
                             <img src="{{ asset('images/parents.gif') }}" alt="" width="100%" height="225">
                             <div class="card-body">
+                                <h5 class="card-title">Kuroilers</h5>
                                 <p class="card-text">
                                 <ul>
                                     <li>It matures in about 10 weeks.</li>
