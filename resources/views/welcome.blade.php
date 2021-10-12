@@ -36,8 +36,8 @@
                     it
                     produces to customer satisfaction. </p>
                 <div class="d-grid gap-2 d-sm-flex justify-content-sm-center">
-                    <button type="button" class="btn btn-success btn-lg px-4 gap-3 text-light">Primary button</button>
-                    <button type="button" class="btn btn-outline-secondary btn-lg px-4">Secondary</button>
+                    <button type="button" class="btn btn-success btn-lg px-4 gap-3 text-light">Read More</button>
+                    <button type="button" class="btn btn-outline-secondary btn-lg px-4">Contact Us</button>
                 </div>
             </div>
         </div>
