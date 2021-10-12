@@ -1,4 +1,4 @@
- <nav class="navbar navbar-expand-md navbar-dark bg-dark p-4" aria-label="Fourth navbar example">
+ <nav class="navbar navbar-expand-md navbar-dark bg-dark p-4 fixed-top" aria-label="Fourth navbar example">
      <div class="container-fluid container">
          <a class="navbar-brand" href="#">African Choice Holdings</a>
          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarsExample04"
@@ -12,13 +12,13 @@
                      <a class="nav-link active" aria-current="page" href="#">Home</a>
                  </li>
                  <li class="nav-item">
-                     <a class="nav-link" href="#">About us</a>
+                     <a class="nav-link" href="#about-us">About us</a>
                  </li>
                  <li class="nav-item">
-                     <a class="nav-link" href="#">Products</a>
+                     <a class="nav-link" href="#products">Products</a>
                  </li>
                  <li class="nav-item">
-                     <a class="nav-link" href="#">Contact Us</a>
+                     <a class="nav-link" href="#contact">Contact Us</a>
                  </li>
                  {{-- <li class="nav-item dropdown">
                      <a class="nav-link dropdown-toggle" href="#" id="dropdown04" data-bs-toggle="dropdown"
