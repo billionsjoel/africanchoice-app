@@ -1,0 +1,40 @@
+.header {
+    height: 100vh;
+    background-image: linear-gradient(
+            to right,
+            rgb(255, 204, 41, 0.55),
+            rgb(129, 178, 20, 0.55)
+        ),
+        url("../images/bg.jpeg");
+    background-size: cover;
+    background-position: top;
+    clip-path: polygon(0 0, 100% 0, 100% 95%, 0 100%);
+    -webkit-clip-path: polygon(0 0, 100% 0, 100% 95%, 0 100%);
+}
+
+.heading-main {
+    display: block;
+    color: #fff;
+    font-size: 4rem;
+    font-weight: lighter;
+}
+
+.heading-sub {
+    display: block;
+    font-weight: lighter;
+    font-size: 20px;
+    letter-spacing: 2px;
+    color: #fff;
+}
+
+.center {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+#header {
+    transition: 0.2s;
+}
