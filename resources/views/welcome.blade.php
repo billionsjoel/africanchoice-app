@@ -29,15 +29,18 @@
             <img src="{{ asset('images/logo.jpeg') }}" alt="logo" height="150em" width="165em">
             <h1 class="display-5 fw-bold">Background</h1>
             <div class="col-lg-6 mx-auto">
-                <p class="lead mb-4">African choice holdings is a company incorporated in december 2019 which deals in
-                    agro
-                    business. Through our strategic partnerships we managed to work with HasTavuk Turkey for continous
-                    improvement, keeping up with technology and following the sector closely. From the high quality breeds
-                    it
-                    produces to customer satisfaction. </p>
+                <p class="lead mb-4">African Choice holdings Limited is a fast growing Agro based company dealing in a
+                    wide range of
+                    agro based products and services.
+                    African Choice Holdings imports high I quality pre-vaccinated day-old chicks, hatching eggs, parent
+                    stock, concentrates from its strategic partners HasTavuk based in Turkey, this is one of the biggest
+                    exporters of high Quality Agro based products in the whole of Europe.
+                    African Choice Holdings offers Consultations veterinary services, Construction of poultry farms and
+                    management, farming trainings</p>
                 <div class="d-grid gap-2 d-sm-flex justify-content-sm-center">
-                    <button type="button" class="btn btn-success btn-lg px-4 gap-3 text-light">Read More</button>
-                    <button type="button" class="btn btn-outline-secondary btn-lg px-4">Contact Us</button>
+                    <a type="button" href="#hanging-icons" class="btn btn-success btn-lg px-4 gap-3 text-light">Read
+                        More</a>
+                    <a type="button" href="#contact" class="btn btn-outline-secondary btn-lg px-4">Contact Us</a>
                 </div>
             </div>
         </div>
@@ -107,25 +110,25 @@
                         {{-- <a href="#" class="btn btn-primary">
                     Primary button
                 </a> --}}
+                        <div id="services">&nbsp;</div>
                     </div>
                 </div>
             </div>
         </div>
-
     </section>
 
     {{-- products section --}}
-    <section id="products">
-        <div class="container px-4 py-5" id="custom-cards">
-            <h2 class="pb-2 border-bottom">Our Products</h2>
+    <section id="services">
+        <div class="container px-4 py-5 mt-4" id="custom-cards">
+            <h2 class="pb-2">Our Services</h2>
 
             <div class="row row-cols-1 row-cols-lg-3 align-items-stretch g-4 py-5">
                 <div class="col">
                     <div class="card card-cover h-100 overflow-hidden text-white bg-dark rounded-5 shadow-lg"
                         style="background-image: url('unsplash-photo-1.jpg');">
                         <div class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1">
-                            <h2 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">Hatching, Eggs</h2>
-                            <ul class="d-flex list-unstyled mt-auto">
+                            <h2 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">Farm Construction</h2>
+                            {{-- <ul class="d-flex list-unstyled mt-auto">
                                 <li class="me-auto">
                                     <img src="https://github.com/twbs.png" alt="Bootstrap" width="32" height="32"
                                         class="rounded-circle border border-white">
@@ -134,15 +137,15 @@
                                     <svg class="bi me-2" width="1em" height="1em">
                                         <use xlink:href="#geo-fill" />
                                     </svg>
-                                    <small>Earth</small>
+                                    <small>fertilized</small>
                                 </li>
                                 <li class="d-flex align-items-center">
                                     <svg class="bi me-2" width="1em" height="1em">
                                         <use xlink:href="#calendar3" />
                                     </svg>
-                                    <small>3d</small>
+                                    <small>Incubating</small>
                                 </li>
-                            </ul>
+                            </ul> --}}
                         </div>
                     </div>
                 </div>
@@ -151,9 +154,9 @@
                     <div class="card card-cover h-100 overflow-hidden text-white bg-dark rounded-5 shadow-lg"
                         style="background-image: url('unsplash-photo-2.jpg');">
                         <div class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1">
-                            <h2 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">Conerntrates / Feeds
+                            <h2 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">Farm management
                             </h2>
-                            <ul class="d-flex list-unstyled mt-auto">
+                            {{-- <ul class="d-flex list-unstyled mt-auto">
                                 <li class="me-auto">
                                     <img src="https://github.com/twbs.png" alt="Bootstrap" width="32" height="32"
                                         class="rounded-circle border border-white">
@@ -170,7 +173,7 @@
                                     </svg>
                                     <small>4d</small>
                                 </li>
-                            </ul>
+                            </ul> --}}
                         </div>
                     </div>
                 </div>
@@ -179,8 +182,8 @@
                     <div class="card card-cover h-100 overflow-hidden text-white bg-dark rounded-5 shadow-lg"
                         style="background-image: url('unsplash-photo-3.jpg');">
                         <div class="d-flex flex-column h-100 p-5 pb-3 text-shadow-1">
-                            <h2 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">Parent Stock, Layers, kuroilers, Broilers</h2>
-                            <ul class="d-flex list-unstyled mt-auto">
+                            <h2 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">Training</h2>
+                            {{-- <ul class="d-flex list-unstyled mt-auto">
                                 <li class="me-auto">
                                     <img src="https://github.com/twbs.png" alt="Bootstrap" width="32" height="32"
                                         class="rounded-circle border border-white">
@@ -197,220 +200,307 @@
                                     </svg>
                                     <small>5d</small>
                                 </li>
-                            </ul>
+                            </ul> --}}
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row row-cols-1 row-cols-lg-3 align-items-stretch g-4 py-5">
+                <div class="col">
+                    <div class="card card-cover h-100 overflow-hidden text-white bg-dark rounded-5 shadow-lg"
+                        style="background-image: url('unsplash-photo-1.jpg');">
+                        <div class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1">
+                            <h2 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">Consulting & Training</h2>
+                            {{-- <ul class="d-flex list-unstyled mt-auto">
+                                <li class="me-auto">
+                                    <img src="https://github.com/twbs.png" alt="Bootstrap" width="32" height="32"
+                                        class="rounded-circle border border-white">
+                                </li>
+                                <li class="d-flex align-items-center me-3">
+                                    <svg class="bi me-2" width="1em" height="1em">
+                                        <use xlink:href="#geo-fill" />
+                                    </svg>
+                                    <small>fertilized</small>
+                                </li>
+                                <li class="d-flex align-items-center">
+                                    <svg class="bi me-2" width="1em" height="1em">
+                                        <use xlink:href="#calendar3" />
+                                    </svg>
+                                    <small>Incubating</small>
+                                </li>
+                            </ul> --}}
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col">
+                    <div class="card card-cover h-100 overflow-hidden text-white bg-dark rounded-5 shadow-lg"
+                        style="background-image: url('unsplash-photo-2.jpg');">
+                        <div class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1">
+                            <h2 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">Laboratory tests and reports
+                            </h2>
+                            {{-- <ul class="d-flex list-unstyled mt-auto">
+                                <li class="me-auto">
+                                    <img src="https://github.com/twbs.png" alt="Bootstrap" width="32" height="32"
+                                        class="rounded-circle border border-white">
+                                </li>
+                                <li class="d-flex align-items-center me-3">
+                                    <svg class="bi me-2" width="1em" height="1em">
+                                        <use xlink:href="#geo-fill" />
+                                    </svg>
+                                    <small>Pakistan</small>
+                                </li>
+                                <li class="d-flex align-items-center">
+                                    <svg class="bi me-2" width="1em" height="1em">
+                                        <use xlink:href="#calendar3" />
+                                    </svg>
+                                    <small>4d</small>
+                                </li>
+                            </ul> --}}
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col">
+                    <div class="card card-cover h-100 overflow-hidden text-white bg-dark rounded-5 shadow-lg"
+                        style="background-image: url('unsplash-photo-3.jpg');">
+                        <div class="d-flex flex-column h-100 p-5 pb-3 text-shadow-1">
+                            <h2 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">Veterinary services</h2>
+                            {{-- <ul class="d-flex list-unstyled mt-auto">
+                                <li class="me-auto">
+                                    <img src="https://github.com/twbs.png" alt="Bootstrap" width="32" height="32"
+                                        class="rounded-circle border border-white">
+                                </li>
+                                <li class="d-flex align-items-center me-3">
+                                    <svg class="bi me-2" width="1em" height="1em">
+                                        <use xlink:href="#geo-fill" />
+                                    </svg>
+                                    <small>California</small>
+                                </li>
+                                <li class="d-flex align-items-center">
+                                    <svg class="bi me-2" width="1em" height="1em">
+                                        <use xlink:href="#calendar3" />
+                                    </svg>
+                                    <small>5d</small>
+                                </li>
+                            </ul> --}}
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-
-        {{-- types of products --}}
-
-        <div class="album py-5 bg-light">
+    </section>
+    {{-- types of products --}}
+    <section id="products">
+        <div class="album py-5 bg-light" id="products">
             <div class="container">
+                <div class="container px-4 py-5" id="custom-cards">
+                    <h2 class="pb-2">Our Products</h2>
 
-                <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
-                    <div class="col">
-                        <div class="card shadow-sm">
-                            <img src="{{ asset('images/Lohmann-Brown-Layer.png') }}" alt="" width="100%" height="225">
+                    <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3 mt-4">
+                        <div class="col">
+                            <div class="card shadow-sm">
+                                <img src="{{ asset('images/Lohmann-Brown-Layer.png') }}" alt="" width="100%" height="225">
 
-                            <div class="card-body">
-                                <h5 class="card-title">Lohmann Brown Layer</h5>
-                                <p class="card-text">
-                                <ul>
-                                    <li>It is commercially bred, used mainly for egg laying, at which they excel</li>
-                                    <li>They start laying at around 18 weeks of age, lays for 2 years of production</li>
-                                    <li>It gives a brown egg shell.</li>
-                                </ul>
-                                </p>
-                                {{-- <div class="d-flex justify-content-between align-items-center">
+                                <div class="card-body">
+                                    <h5 class="card-title">Lohmann Brown Layer</h5>
+                                    <p class="card-text">
+                                    <ul>
+                                        <li>It is commercially bred, used mainly for egg laying, at which they excel</li>
+                                        <li>They start laying at around 18 weeks of age, lays for 2 years of production</li>
+                                        <li>It gives a brown egg shell.</li>
+                                    </ul>
+                                    </p>
+                                    {{-- <div class="d-flex justify-content-between align-items-center">
                                     <div class="btn-group">
                                         <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
                                         <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
                                     </div>
                                     <small class="text-muted">9 mins</small>
                                 </div> --}}
+                                </div>
                             </div>
                         </div>
-                    </div>
-                    <div class="col">
-                        <div class="card shadow-sm">
-                            <img src="{{ asset('images/Lohmann-Sandy-Layer.png') }}" alt="" width="100%" height="225">
-                            <div class="card-body">
-                                <h5 class="card-title">Lohmann Sandy Layer</h5>
-                                <p class="card-text">
-                                <ul>
-                                    <li>It is commercially bred, used mainly for egg laying, at which they excel.</li>
-                                    <li>They start laying at around 18 weeks of age, lays for 2 years of production</li>
-                                    <li>It gives a brown egg shell.</li>
-                                </ul>
-                                </p>
-                                {{-- <div class="d-flex justify-content-between align-items-center">
+                        <div class="col">
+                            <div class="card shadow-sm">
+                                <img src="{{ asset('images/Lohmann-Sandy-Layer.png') }}" alt="" width="100%" height="225">
+                                <div class="card-body">
+                                    <h5 class="card-title">Lohmann Sandy Layer</h5>
+                                    <p class="card-text">
+                                    <ul>
+                                        <li>It is commercially bred, used mainly for egg laying, at which they excel.</li>
+                                        <li>They start laying at around 18 weeks of age, lays for 2 years of production</li>
+                                        <li>It gives a brown egg shell.</li>
+                                    </ul>
+                                    </p>
+                                    {{-- <div class="d-flex justify-content-between align-items-center">
                                     <div class="btn-group">
                                         <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
                                         <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
                                     </div>
                                     <small class="text-muted">9 mins</small>
                                 </div> --}}
+                                </div>
                             </div>
                         </div>
-                    </div>
-                    <div class="col">
-                        <div class="card shadow-sm">
-                            <img src="{{ asset('images/Lohmann-Lsl-Lite-Layer.png') }}" alt="" width="100%" height="225">
-                            <div class="card-body">
-                                <h5 class="card-title">Lohmann Lsl Lite Layer</h5>
-                                <p class="card-text">
-                                <ul>
-                                    <li>It is commercially bred, used mainly for egg laying, at which they excel.</li>
-                                    <li>They start laying at around 18 weeks of age, lays for 2 years of production</li>
-                                    <li>It gives a brown egg shell.</li>
-                                </ul>
-                                </p>
-                                {{-- <div class="d-flex justify-content-between align-items-center">
+                        <div class="col">
+                            <div class="card shadow-sm">
+                                <img src="{{ asset('images/Lohmann-Lsl-Lite-Layer.png') }}" alt="" width="100%"
+                                    height="225">
+                                <div class="card-body">
+                                    <h5 class="card-title">Lohmann Lsl Lite Layer</h5>
+                                    <p class="card-text">
+                                    <ul>
+                                        <li>It is commercially bred, used mainly for egg laying, at which they excel.</li>
+                                        <li>They start laying at around 18 weeks of age, lays for 2 years of production</li>
+                                        <li>It gives a brown egg shell.</li>
+                                    </ul>
+                                    </p>
+                                    {{-- <div class="d-flex justify-content-between align-items-center">
                                     <div class="btn-group">
                                         <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
                                         <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
                                     </div>
                                     <small class="text-muted">9 mins</small>
                                 </div> --}}
+                                </div>
                             </div>
                         </div>
-                    </div>
 
-                    <div class="col">
-                        <div class="card shadow-sm">
-                            <img src="{{ asset('images/parents.gif') }}" alt="" width="100%" height="225">
-                            <div class="card-body">
-                                <h5 class="card-title">Kuroilers</h5>
-                                <p class="card-text">
-                                <ul>
-                                    <li>It matures in about 10 weeks.</li>
-                                    <li>At maturity, The hen weighs about 3.5kg</li>
-                                    <li>It starts laying eggs at 5 months</li>
-                                    <li>At 4 months, they are ready to be sold</li>
-                                </ul>
-                                </p>
-                                {{-- <div class="d-flex justify-content-between align-items-center">
+                        <div class="col">
+                            <div class="card shadow-sm">
+                                <img src="{{ asset('images/parents.gif') }}" alt="" width="100%" height="225">
+                                <div class="card-body">
+                                    <h5 class="card-title">Kuroilers</h5>
+                                    <p class="card-text">
+                                    <ul>
+                                        <li>It matures in about 10 weeks.</li>
+                                        <li>At maturity, The hen weighs about 3.5kg</li>
+                                        <li>It starts laying eggs at 5 months</li>
+                                        <li>At 4 months, they are ready to be sold</li>
+                                    </ul>
+                                    </p>
+                                    {{-- <div class="d-flex justify-content-between align-items-center">
                                     <div class="btn-group">
                                         <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
                                         <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
                                     </div>
                                     <small class="text-muted">9 mins</small>
                                 </div> --}}
+                                </div>
                             </div>
                         </div>
-                    </div>
-                    <div class="col">
-                        <div class="card shadow-sm">
-                            <img src="{{ asset('images/cobb-500-broiler.png') }}" alt="" width="100%" height="225">
-                            <div class="card-body">
-                                <h5 class="card-title">Cobb 500 Broilers</h5>
-                                <p class="card-text">
-                                <ul>
-                                    <li>Superior performace on lower cost feed ratio.</li>
-                                    <li>Lowest cost of live weight produced.</li>
-                                    <li>Excellent growth rate.</li>
-                                    <li>Most feed efficient</li>
-                                </ul>
-                                </p>
-                                {{-- <div class="d-flex justify-content-between align-items-center">
+                        <div class="col">
+                            <div class="card shadow-sm">
+                                <img src="{{ asset('images/cobb-500-broiler.png') }}" alt="" width="100%" height="225">
+                                <div class="card-body">
+                                    <h5 class="card-title">Cobb 500 Broilers</h5>
+                                    <p class="card-text">
+                                    <ul>
+                                        <li>Superior performace on lower cost feed ratio.</li>
+                                        <li>Lowest cost of live weight produced.</li>
+                                        <li>Excellent growth rate.</li>
+                                        <li>Most feed efficient</li>
+                                    </ul>
+                                    </p>
+                                    {{-- <div class="d-flex justify-content-between align-items-center">
                                     <div class="btn-group">
                                         <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
                                         <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
                                     </div>
                                     <small class="text-muted">9 mins</small>
                                 </div> --}}
+                                </div>
                             </div>
                         </div>
-                    </div>
-                    <div class="col">
-                        <div class="card shadow-sm">
-                            <img src="{{ asset('images/Ross-308-Broiler.png') }}" alt="" width="100%" height="225">
-                            <div class="card-body">
-                                <h5 class="card-title">Ross 308 Broilers</h5>
-                                <p class="card-text">
-                                <ul>
-                                    <li>Superior performace on lower cost feed ratio.</li>
-                                    <li>Lowest cost of live weight produced.</li>
-                                    <li>Excellent growth rate.</li>
-                                    <li>Most feed efficient</li>
-                                </ul>
-                                </p>
-                                {{-- <div class="d-flex justify-content-between align-items-center">
+                        <div class="col">
+                            <div class="card shadow-sm">
+                                <img src="{{ asset('images/Ross-308-Broiler.png') }}" alt="" width="100%" height="225">
+                                <div class="card-body">
+                                    <h5 class="card-title">Ross 308 Broilers</h5>
+                                    <p class="card-text">
+                                    <ul>
+                                        <li>Superior performace on lower cost feed ratio.</li>
+                                        <li>Lowest cost of live weight produced.</li>
+                                        <li>Excellent growth rate.</li>
+                                        <li>Most feed efficient</li>
+                                    </ul>
+                                    </p>
+                                    {{-- <div class="d-flex justify-content-between align-items-center">
                                     <div class="btn-group">
                                         <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
                                         <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
                                     </div>
                                     <small class="text-muted">9 mins</small>
                                 </div> --}}
+                                </div>
                             </div>
                         </div>
-                    </div>
-                    <div class="col">
-                        <div class="card shadow-sm">
-                            <img src="{{ asset('images/feeds.jpeg') }}" alt="" width="100%" height="225">
-                            <div class="card-body">
-                                <h5 class="card-title">Concentrates/Feeds</h5>
-                                <p class="card-text">
-                                <ul>
-                                    <li>Pre-starter feeds</li>
-                                    <li>Layer concentrates</li>
-                                    <li>Broiler concentrates</li>
-                                </ul>
-                                </p>
-                                {{-- <div class="d-flex justify-content-between align-items-center">
+                        <div class="col">
+                            <div class="card shadow-sm">
+                                <img src="{{ asset('images/feeds.jpeg') }}" alt="" width="100%" height="225">
+                                <div class="card-body">
+                                    <h5 class="card-title">Concentrates/Feeds</h5>
+                                    <p class="card-text">
+                                    <ul>
+                                        <li>Pre-starter feeds</li>
+                                        <li>Layer concentrates</li>
+                                        <li>Broiler concentrates</li>
+                                    </ul>
+                                    </p>
+                                    {{-- <div class="d-flex justify-content-between align-items-center">
                                     <div class="btn-group">
                                         <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
                                         <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
                                     </div>
                                     <small class="text-muted">9 mins</small>
                                 </div> --}}
+                                </div>
                             </div>
                         </div>
-                    </div>
 
-                    <div class="col">
-                        <div class="card shadow-sm">
-                            <img src="{{ asset('images/hatch.jpeg') }}" alt="" width="100%" height="225">
-                            <div class="card-body">
-                                <h5 class="card-title">Hatching Eggs</h5>
-                                <p class="card-text">
-                                <ul>
-                                    <li>Layers</li>
-                                    <li>Broilers</li>
-                                    <li>Kuroilers</li>
-                                </ul>
-                                </p>
-                                {{-- <div class="d-flex justify-content-between align-items-center">
+                        <div class="col">
+                            <div class="card shadow-sm">
+                                <img src="{{ asset('images/hatch.jpeg') }}" alt="" width="100%" height="225">
+                                <div class="card-body">
+                                    <h5 class="card-title">Hatching Eggs</h5>
+                                    <p class="card-text">
+                                    <ul>
+                                        <li>Layers</li>
+                                        <li>Broilers</li>
+                                        <li>Kuroilers</li>
+                                    </ul>
+                                    </p>
+                                    {{-- <div class="d-flex justify-content-between align-items-center">
                                     <div class="btn-group">
                                         <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
                                         <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
                                     </div>
                                     <small class="text-muted">9 mins</small>
                                 </div> --}}
+                                </div>
                             </div>
                         </div>
-                    </div>
-                    <div class="col">
-                        <div class="card shadow-sm">
-                            <img src="{{ asset('images/day-old.jpeg') }}" alt="" width="100%" height="225">
-                            <div class="card-body">
-                                <h5 class="card-title">Day Old Chicks</h5>
-                                <p class="card-text">
-                                <ul>
-                                    <li>One day old.</li>
-                                    <li>Vaccinated.</li>
-                                    <li>Ready for brooding</li>
-                                </ul>
-                                </p>
-                                {{-- <div class="d-flex justify-content-between align-items-center">
+                        <div class="col">
+                            <div class="card shadow-sm">
+                                <img src="{{ asset('images/day-old.jpeg') }}" alt="" width="100%" height="225">
+                                <div class="card-body">
+                                    <h5 class="card-title">Day Old Chicks</h5>
+                                    <p class="card-text">
+                                    <ul>
+                                        <li>One day old.</li>
+                                        <li>Vaccinated.</li>
+                                        <li>Ready for brooding</li>
+                                    </ul>
+                                    </p>
+                                    {{-- <div class="d-flex justify-content-between align-items-center">
                                     <div class="btn-group">
                                         <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
                                         <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
                                     </div>
                                     <small class="text-muted">9 mins</small>
                                 </div> --}}
+                                </div>
                             </div>
                         </div>
                     </div>

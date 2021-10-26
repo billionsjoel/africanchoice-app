@@ -18,6 +18,12 @@
                      <a class="nav-link" href="#products">Products</a>
                  </li>
                  <li class="nav-item">
+                     <a class="nav-link" href="#services">Services</a>
+                 </li>
+                 <li class="nav-item">
+                     <a class="nav-link" href="#products">Gallery</a>
+                 </li>
+                 <li class="nav-item">
                      <a class="nav-link" href="#contact">Contact Us</a>
                  </li>
                  {{-- <li class="nav-item dropdown">
