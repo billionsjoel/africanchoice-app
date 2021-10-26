@@ -5,6 +5,16 @@
     <link rel="stylesheet" href="{{ asset('css/heros.css') }}">
     <link rel="stylesheet" href="{{ asset('css/product.css') }}">
     {{-- <link rel="stylesheet" href="{{ asset('css/album.css') }}"> --}}
+    <style>
+        .img-style {
+            height: 30rem;
+            background-size: cover;
+            background-position: top;
+            object-fit: cover;
+            object-position: 50% 50%;
+        }
+
+    </style>
 @endsection
 
 @section('content')
@@ -32,7 +42,7 @@
                 <p class="lead mb-4">African Choice holdings Limited is a fast growing Agro based company dealing in a
                     wide range of
                     agro based products and services.
-                    African Choice Holdings imports high I quality pre-vaccinated day-old chicks, hatching eggs, parent
+                    African Choice Holdings imports high quality pre-vaccinated day-old chicks, hatching eggs, parent
                     stock, concentrates from its strategic partners HasTavuk based in Turkey, this is one of the biggest
                     exporters of high Quality Agro based products in the whole of Europe.
                     African Choice Holdings offers Consultations veterinary services, Construction of poultry farms and
@@ -300,7 +310,8 @@
                     <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3 mt-4">
                         <div class="col">
                             <div class="card shadow-sm">
-                                <img src="{{ asset('images/Lohmann-Brown-Layer.png') }}" alt="" width="100%" height="225">
+                                <img class="img-style" src="{{ asset('images/Lohmann-Brown-Layer.png') }}" alt=""
+                                    width="100%" height="150">
 
                                 <div class="card-body">
                                     <h5 class="card-title">Lohmann Brown Layer</h5>
@@ -323,7 +334,8 @@
                         </div>
                         <div class="col">
                             <div class="card shadow-sm">
-                                <img src="{{ asset('images/Lohmann-Sandy-Layer.png') }}" alt="" width="100%" height="225">
+                                <img class="img-style" src="{{ asset('images/Lohmann-Sandy-Layer.png') }}" alt=""
+                                    width="100%" height="150">
                                 <div class="card-body">
                                     <h5 class="card-title">Lohmann Sandy Layer</h5>
                                     <p class="card-text">
@@ -345,8 +357,8 @@
                         </div>
                         <div class="col">
                             <div class="card shadow-sm">
-                                <img src="{{ asset('images/Lohmann-Lsl-Lite-Layer.png') }}" alt="" width="100%"
-                                    height="225">
+                                <img class="img-style" src="{{ asset('images/Lohmann-Lsl-Lite-Layer.png') }}" alt=""
+                                    width="100%" height="150">
                                 <div class="card-body">
                                     <h5 class="card-title">Lohmann Lsl Lite Layer</h5>
                                     <p class="card-text">
@@ -369,7 +381,8 @@
 
                         <div class="col">
                             <div class="card shadow-sm">
-                                <img src="{{ asset('images/parents.gif') }}" alt="" width="100%" height="225">
+                                <img class="img-style" src="{{ asset('images/parents.gif') }}" alt="" width="100%"
+                                    height="150">
                                 <div class="card-body">
                                     <h5 class="card-title">Kuroilers</h5>
                                     <p class="card-text">
@@ -392,7 +405,8 @@
                         </div>
                         <div class="col">
                             <div class="card shadow-sm">
-                                <img src="{{ asset('images/cobb-500-broiler.png') }}" alt="" width="100%" height="225">
+                                <img class="img-style" src="{{ asset('images/cobb-500-broiler.png') }}" alt=""
+                                    width="100%" height="150">
                                 <div class="card-body">
                                     <h5 class="card-title">Cobb 500 Broilers</h5>
                                     <p class="card-text">
@@ -415,7 +429,8 @@
                         </div>
                         <div class="col">
                             <div class="card shadow-sm">
-                                <img src="{{ asset('images/Ross-308-Broiler.png') }}" alt="" width="100%" height="225">
+                                <img class="img-style" src="{{ asset('images/Ross-308-Broiler.png') }}" alt=""
+                                    width="100%" height="150">
                                 <div class="card-body">
                                     <h5 class="card-title">Ross 308 Broilers</h5>
                                     <p class="card-text">
@@ -438,7 +453,8 @@
                         </div>
                         <div class="col">
                             <div class="card shadow-sm">
-                                <img src="{{ asset('images/feeds.jpeg') }}" alt="" width="100%" height="225">
+                                <img class="img-style" src="{{ asset('images/feeds.jpeg') }}" alt="" width="100%"
+                                    height="150">
                                 <div class="card-body">
                                     <h5 class="card-title">Concentrates/Feeds</h5>
                                     <p class="card-text">
@@ -461,7 +477,8 @@
 
                         <div class="col">
                             <div class="card shadow-sm">
-                                <img src="{{ asset('images/hatch.jpeg') }}" alt="" width="100%" height="225">
+                                <img class="img-style" src="{{ asset('images/hatch.jpeg') }}" alt="" width="100%"
+                                    height="150">
                                 <div class="card-body">
                                     <h5 class="card-title">Hatching Eggs</h5>
                                     <p class="card-text">
@@ -483,7 +500,8 @@
                         </div>
                         <div class="col">
                             <div class="card shadow-sm">
-                                <img src="{{ asset('images/day-old.jpeg') }}" alt="" width="100%" height="225">
+                                <img class="img-style" src="{{ asset('images/day-old.jpeg') }}" alt="" width="100%"
+                                    height="150">
                                 <div class="card-body">
                                     <h5 class="card-title">Day Old Chicks</h5>
                                     <p class="card-text">
