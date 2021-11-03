@@ -4,6 +4,7 @@
     <link rel="stylesheet" href="{{ asset('css/header.css') }}">
     <link rel="stylesheet" href="{{ asset('css/heros.css') }}">
     <link rel="stylesheet" href="{{ asset('css/product.css') }}">
+
     {{-- <link rel="stylesheet" href="{{ asset('css/album.css') }}"> --}}
     <style>
         .img-style {
