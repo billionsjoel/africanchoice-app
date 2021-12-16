@@ -138,8 +138,8 @@
 
             <div class="row row-cols-1 row-cols-lg-3 align-items-stretch g-4 py-5">
                 <div class="col">
-                    <div class="card card-cover h-100 overflow-hidden text-white bg-dark rounded-5 shadow-lg"
-                        style="background-image: url('unsplash-photo-1.jpg');">
+                    <div class="card card-cover h-100 overflow-hidden text-white bg-dark rounded-5 shadow-lg img-style"
+                        style="background-image: url('images/Farm-Construction.jpeg');">
                         <div class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1">
                             <h2 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">Farm Construction</h2>
                             {{-- <ul class="d-flex list-unstyled mt-auto">
@@ -165,8 +165,8 @@
                 </div>
 
                 <div class="col">
-                    <div class="card card-cover h-100 overflow-hidden text-white bg-dark rounded-5 shadow-lg"
-                        style="background-image: url('unsplash-photo-2.jpg');">
+                    <div class="card card-cover h-100 overflow-hidden text-white bg-dark rounded-5 shadow-lg img-style"
+                        style="background-image: url('images/Management-of-farms.jpeg');">
                         <div class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1">
                             <h2 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">Farm management
                             </h2>
@@ -193,8 +193,8 @@
                 </div>
 
                 <div class="col">
-                    <div class="card card-cover h-100 overflow-hidden text-white bg-dark rounded-5 shadow-lg"
-                        style="background-image: url('unsplash-photo-3.jpg');">
+                    <div class="card card-cover h-100 overflow-hidden text-white bg-dark rounded-5 shadow-lg img-style"
+                        style="background-image: url('images/Trainings-Farmers.jpeg');">
                         <div class="d-flex flex-column h-100 p-5 pb-3 text-shadow-1">
                             <h2 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">Farmer's Training</h2>
                             {{-- <ul class="d-flex list-unstyled mt-auto">
@@ -221,8 +221,8 @@
             </div>
             <div class="row row-cols-1 row-cols-lg-3 align-items-stretch g-4 py-5">
                 <div class="col">
-                    <div class="card card-cover h-100 overflow-hidden text-white bg-dark rounded-5 shadow-lg"
-                        style="background-image: url('unsplash-photo-1.jpg');">
+                    <div class="card card-cover h-100 overflow-hidden text-white bg-dark rounded-5 shadow-lg img-style"
+                        style="background-image: url('images/consultancy.jpeg');">
                         <div class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1">
                             <h2 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">Consulting & Training</h2>
                             {{-- <ul class="d-flex list-unstyled mt-auto">
@@ -248,8 +248,8 @@
                 </div>
 
                 <div class="col">
-                    <div class="card card-cover h-100 overflow-hidden text-white bg-dark rounded-5 shadow-lg"
-                        style="background-image: url('unsplash-photo-2.jpg');">
+                    <div class="card card-cover h-100 overflow-hidden text-white bg-dark rounded-5 shadow-lg img-style"
+                        style="background-image: url('images/Management-of-farms.jpeg');">
                         <div class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1">
                             <h2 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">Laboratory tests and reports
                             </h2>
@@ -276,8 +276,8 @@
                 </div>
 
                 <div class="col">
-                    <div class="card card-cover h-100 overflow-hidden text-white bg-dark rounded-5 shadow-lg"
-                        style="background-image: url('unsplash-photo-3.jpg');">
+                    <div class="card card-cover h-100 overflow-hidden text-white bg-dark rounded-5 shadow-lg img-style"
+                        style="background-image: url('images/Vertinary.jpeg');">
                         <div class="d-flex flex-column h-100 p-5 pb-3 text-shadow-1">
                             <h2 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">Veterinary services</h2>
                             {{-- <ul class="d-flex list-unstyled mt-auto">
@@ -338,17 +338,27 @@
                         </div>
                         <div class="col">
                             <div class="card shadow-sm">
-                                <img class="img-style" src="{{ asset('images/Lohmann-Sandy-Layer.png') }}" alt=""
+                                <img class="img-style" src="{{ asset('images/Hy-Line-Brown-Layer.jpeg') }}" alt=""
                                     width="100%" height="150">
                                 <div class="card-body">
-                                    <h5 class="card-title">Lohmann Sandy Layer</h5>
+                                    <h5 class="card-title">Hy-Line Brown Layers</h5>
                                     <p class="card-text">
                                     <ul>
-                                        <li> It is a commercially breed, used mainly for
-                                            egg laying, at which they excel. </li>
-                                        <li> They start laying at around18 weeks of age,
-                                            lays for two (2) years of production </li>
-                                        <li> It gives a brown egg shell </li>
+                                        <li> Prolific Producer, Rich Brown Eggs, Hardy Layer</li>
+                                        <li> The Hy-Line Brown is the world's most balanced brown egg layer. She
+                                            produces over 355 rich brown
+                                            eggs to 80 weeks, peaks well and begins lay early with optimum egg size. These
+                                            traits combined with
+                                            an excellent temperament, unrivalled feed efficiency, the best interior egg
+                                            quality in the market and
+                                            unbeatable liveability and feather cover give the Hy-Line Brown the perfect
+                                            balance for both
+                                            Enriched Colony and Alternative production systems, which means more profit for
+                                            the poultry
+                                            producer.</li>
+                                        <li> With the Hy-Line Brown's superior performance and world beating
+                                            efficiencies it's the perfect choice
+                                            for a more profitable future. </li>
                                     </ul>
                                     </p>
                                     {{-- <div class="d-flex justify-content-between align-items-center">
@@ -363,17 +373,30 @@
                         </div>
                         <div class="col">
                             <div class="card shadow-sm">
-                                <img class="img-style" src="{{ asset('images/Lohmann-Lsl-Lite-Layer.png') }}" alt=""
+                                <img class="img-style" src="{{ asset('images/Hy-Line-W-80.jpeg') }}" alt=""
                                     width="100%" height="150">
                                 <div class="card-body">
-                                    <h5 class="card-title">Lohmann Lsl Lite Layer</h5>
+                                    <h5 class="card-title">Hy-Line W80</h5>
                                     <p class="card-text">
                                     <ul>
-                                        <li>It is a commercially breed used mainly for
-                                            egg laying at which they excel.</li>
-                                        <li> They start laying at around18 weeks of age,
-                                            lays for two (2) years of production </li>
-                                        <li> It gives a white egg shell.
+                                        <li>Robust, Prolific, Strong Performance in Alternative Systems, Long Single-Cycle
+                                            Lay</li>
+                                        <li> The Hy-Line W-80 is a robust white egg layer for all housing systems and
+                                            environments. This bird
+                                            delivers prolific egg numbers, excellent egg shell strength, and strong
+                                            performance under
+                                            challenging environments and low-density feed rations. </li>
+                                        <li> The W-80 is adaptable to alternative production systems and remains calm for
+                                            easy management.
+                                            For markets requiring a larger egg size, the W-80 Plus gives producers the same
+                                            great traits with an
+                                            egg weight profile two grams heavier.
+                                        </li>
+                                        <li>Its persistency for long single-cycle lay means more eggs on five grams less
+                                            feed. Producers gain
+                                            more profitability with a feed savings of approximately two kilograms per bird
+                                            per year versus
+                                            competing brands.
                                         </li>
                                     </ul>
                                     </p>
@@ -463,8 +486,8 @@
                         </div>
                         <div class="col">
                             <div class="card shadow-sm">
-                                <img class="img-style" src="{{ asset('images/feeds.jpeg') }}" alt="" width="100%"
-                                    height="150">
+                                <img class="img-style" src="{{ asset('images/Concetrates.jpeg') }}" alt=""
+                                    width="100%" height="150">
                                 <div class="card-body">
                                     <h5 class="card-title">Concentrates/Feeds</h5>
                                     <p class="card-text">
