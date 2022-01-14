@@ -99,21 +99,11 @@
                                     <h5 class="card-title">Hy-Line Brown Layers</h5>
                                     <p class="card-text">
                                     <ul>
-                                        <li> Prolific Producer, Rich Brown Eggs, Hardy Layer</li>
-                                        <li> The Hy-Line Brown is the world's most balanced brown egg layer. She
-                                            produces over 355 rich brown
-                                            eggs to 80 weeks, peaks well and begins lay early with optimum egg size. These
-                                            traits combined with
-                                            an excellent temperament, unrivalled feed efficiency, the best interior egg
-                                            quality in the market and
-                                            unbeatable liveability and feather cover give the Hy-Line Brown the perfect
-                                            balance for both
-                                            Enriched Colony and Alternative production systems, which means more profit for
-                                            the poultry
-                                            producer.</li>
-                                        <li> With the Hy-Line Brown's superior performance and world beating
-                                            efficiencies it's the perfect choice
-                                            for a more profitable future. </li>
+                                        <li> Prolific Producer of Rich Brown Eggs that have a hardy Layer</li>
+
+                                        <li> With the Hy-Line Brown's superior performance and world beating efficiencies
+                                            it's
+                                            the perfect choice for a more profitable future.</li>
                                     </ul>
                                     </p>
                                     {{-- <div class="d-flex justify-content-between align-items-center">
@@ -134,25 +124,11 @@
                                     <h5 class="card-title">Hy-Line W80</h5>
                                     <p class="card-text">
                                     <ul>
-                                        <li>Robust, Prolific, Strong Performance in Alternative Systems, Long Single-Cycle
-                                            Lay</li>
-                                        <li> The Hy-Line W-80 is a robust white egg layer for all housing systems and
-                                            environments. This bird
-                                            delivers prolific egg numbers, excellent egg shell strength, and strong
-                                            performance under
-                                            challenging environments and low-density feed rations. </li>
-                                        <li> The W-80 is adaptable to alternative production systems and remains calm for
-                                            easy management.
-                                            For markets requiring a larger egg size, the W-80 Plus gives producers the same
-                                            great traits with an
-                                            egg weight profile two grams heavier.
-                                        </li>
-                                        <li>Its persistency for long single-cycle lay means more eggs on five grams less
-                                            feed. Producers gain
-                                            more profitability with a feed savings of approximately two kilograms per bird
-                                            per year versus
-                                            competing brands.
-                                        </li>
+                                        <li>
+                                            This bird delivers prolific egg
+                                            numbers, excellent egg shell strength, and strong performance with low-density
+                                            feed rations.</li>
+                                        <li>More eggs on less feed and more profitability with feed savings. </li>
                                     </ul>
                                     </p>
                                     {{-- <div class="d-flex justify-content-between align-items-center">
