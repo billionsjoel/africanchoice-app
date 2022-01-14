@@ -23,12 +23,11 @@
         <div class="row header" id="home">
             <div class="col-sm-12">
                 <div class="center">
-                    <span class="heading-main">African Choice </span>
-                    <span class="heading-sub mb-4 border-bottom border-teal">Holdings</span>
+                    <span class="heading-main">African Choice Holdings ltd</span>
+                    <span class="heading-sub mb-4 border-bottom border-teal">Uganda</span>
                     <span class="heading-sub P-4">"Heart of Perfect Farming."</span></p>
                     <a class="btn btn-warning btn-lg text-success" style="width:13rem; border-radius: 100px;"
-                        href="#about-us">Get
-                        started</a>
+                        href="#about-us">Learn More</a>
                 </div>
             </div>
         </div>
@@ -58,79 +57,239 @@
                 </div>
             </div>
         </div>
+    </section>
 
+    {{-- types of products --}}
+    <section id="products">
+        <div class="album py-5 bg-light" id="products">
+            <div class="container">
+                <div class="container px-4 py-5" id="custom-cards">
+                    <h2 class="pb-2">Our Products</h2>
 
-        {{-- vision mission core values --}}
+                    <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3 mt-4">
+                        <div class="col">
+                            <div class="card shadow-sm">
+                                <img class="img-style" src="{{ asset('images/Lohmann-Brown-Layer.png') }}" alt=""
+                                    width="100%" height="150">
 
-        <div class="container px-4 py-5" id="hanging-icons">
-            <h2 class="pb-2 border-bottom">Our Belief System</h2>
-            <div class="row g-4 py-5 row-cols-1 row-cols-lg-3">
-                <div class="col d-flex align-items-start">
-                    <div class="icon-square bg-light text-dark flex-shrink-0 me-3">
-                        <svg xmlns="http://www.w3.org/2000/svg" height="45" width="45" class="text-dark"
-                            viewBox="0 0 20 20" fill="currentColor">
-                            <path
-                                d="M10.394 2.08a1 1 0 00-.788 0l-7 3a1 1 0 000 1.84L5.25 8.051a.999.999 0 01.356-.257l4-1.714a1 1 0 11.788 1.838L7.667 9.088l1.94.831a1 1 0 00.787 0l7-3a1 1 0 000-1.838l-7-3zM3.31 9.397L5 10.12v4.102a8.969 8.969 0 00-1.05-.174 1 1 0 01-.89-.89 11.115 11.115 0 01.25-3.762zM9.3 16.573A9.026 9.026 0 007 14.935v-3.957l1.818.78a3 3 0 002.364 0l5.508-2.361a11.026 11.026 0 01.25 3.762 1 1 0 01-.89.89 8.968 8.968 0 00-5.35 2.524 1 1 0 01-1.4 0zM6 18a1 1 0 001-1v-2.065a8.935 8.935 0 00-2-.712V17a1 1 0 001 1z" />
-                        </svg>
-                    </div>
-                    <div>
-                        <h2>Mission</h2>
-                        <p>To be a trust worthy and innovative global leader in the market</p>
-                        {{-- <a href="#" class="btn btn-primary">
-                    Primary button
-                </a> --}}
-                    </div>
-                </div>
-                <div class="col d-flex align-items-start">
-                    <div class="icon-square bg-light text-dark flex-shrink-0 me-3">
-                        <svg xmlns="http://www.w3.org/2000/svg" height="45" width="45" viewBox="0 0 20 20"
-                            fill="currentColor">
-                            <path d="M10 12a2 2 0 100-4 2 2 0 000 4z" />
-                            <path fill-rule="evenodd"
-                                d="M.458 10C1.732 5.943 5.522 3 10 3s8.268 2.943 9.542 7c-1.274 4.057-5.064 7-9.542 7S1.732 14.057.458 10zM14 10a4 4 0 11-8 0 4 4 0 018 0z"
-                                clip-rule="evenodd" />
-                        </svg>
-                    </div>
-                    <div>
-                        <h2>Vision</h2>
-                        <p>To be the leading and trusted supplier of Agro-based products in the growing market as the
-                            quality
-                            managed company.</p>
-                        {{-- <a href="#" class="btn btn-primary">
-                    Primary button
-                </a> --}}
-                    </div>
-                </div>
-                <div class="col d-flex align-items-start">
-                    <div class="icon-square bg-light text-dark flex-shrink-0 me-3">
-                        <svg xmlns="http://www.w3.org/2000/svg" height="45" width="45" viewBox="0 0 20 20"
-                            fill="currentColor">
-                            <path fill-rule="evenodd"
-                                d="M9 3a1 1 0 012 0v5.5a.5.5 0 001 0V4a1 1 0 112 0v4.5a.5.5 0 001 0V6a1 1 0 112 0v5a7 7 0 11-14 0V9a1 1 0 012 0v2.5a.5.5 0 001 0V4a1 1 0 012 0v4.5a.5.5 0 001 0V3z"
-                                clip-rule="evenodd" />
-                        </svg>
-                    </div>
-                    <div>
-                        <h2>Core Values</h2>
-                        <p>
-                        <ul>
-                            <li>Innovative</li>
-                            <li>Integrity</li>
-                            <li>Competitive pricing</li>
-                            <li>Service Excellence</li>
-                            <li>Team work.</li>
-                        </ul>
-                        </p>
-                        {{-- <a href="#" class="btn btn-primary">
-                    Primary button
-                </a> --}}
-                        <div id="services">&nbsp;</div>
+                                <div class="card-body">
+                                    <h5 class="card-title">Lohmann Brown Layer</h5>
+                                    <p class="card-text">
+                                    <ul>
+                                        <li>It is commercially bred, used mainly for egg laying, at which they excel</li>
+                                        <li>They start laying at around 18 weeks of age, lays for 2 years of production</li>
+                                        <li>It gives a brown egg shell.</li>
+                                    </ul>
+                                    </p>
+                                    {{-- <div class="d-flex justify-content-between align-items-center">
+                                    <div class="btn-group">
+                                        <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+                                        <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
+                                    </div>
+                                    <small class="text-muted">9 mins</small>
+                                </div> --}}
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="card shadow-sm">
+                                <img class="img-style" src="{{ asset('images/Hy-Line-Brown-Layer.jpeg') }}" alt=""
+                                    width="100%" height="150">
+                                <div class="card-body">
+                                    <h5 class="card-title">Hy-Line Brown Layers</h5>
+                                    <p class="card-text">
+                                    <ul>
+                                        <li> Prolific Producer of Rich Brown Eggs that have a hardy Layer</li>
+
+                                        <li> With the Hy-Line Brown's superior performance and world beating efficiencies
+                                            it's
+                                            the perfect choice for a more profitable future.</li>
+                                    </ul>
+                                    </p>
+                                    {{-- <div class="d-flex justify-content-between align-items-center">
+                                    <div class="btn-group">
+                                        <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+                                        <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
+                                    </div>
+                                    <small class="text-muted">9 mins</small>
+                                </div> --}}
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="card shadow-sm">
+                                <img class="img-style" src="{{ asset('images/Hy-Line-W-80.jpeg') }}" alt=""
+                                    width="100%" height="150">
+                                <div class="card-body">
+                                    <h5 class="card-title">Hy-Line W80</h5>
+                                    <p class="card-text">
+                                    <ul>
+                                        <li>
+                                            This bird delivers prolific egg
+                                            numbers, excellent egg shell strength, and strong performance with low-density
+                                            feed rations.</li>
+                                        <li>More eggs on less feed and more profitability with feed savings. </li>
+                                    </ul>
+                                    </p>
+                                    {{-- <div class="d-flex justify-content-between align-items-center">
+                                    <div class="btn-group">
+                                        <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+                                        <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
+                                    </div>
+                                    <small class="text-muted">9 mins</small>
+                                </div> --}}
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col">
+                            <div class="card shadow-sm">
+                                <img class="img-style" src="{{ asset('images/parents.gif') }}" alt="" width="100%"
+                                    height="150">
+                                <div class="card-body">
+                                    <h5 class="card-title">Kuroilers</h5>
+                                    <p class="card-text">
+                                    <ul>
+                                        <li>It matures in about 10 weeks.</li>
+                                        <li>At maturity, The hen weighs about 3.5kg</li>
+                                        <li>It starts laying eggs at 5 months</li>
+                                        <li>At 4 months, they are ready to be sold</li>
+                                    </ul>
+                                    </p>
+                                    {{-- <div class="d-flex justify-content-between align-items-center">
+                                    <div class="btn-group">
+                                        <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+                                        <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
+                                    </div>
+                                    <small class="text-muted">9 mins</small>
+                                </div> --}}
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="card shadow-sm">
+                                <img class="img-style" src="{{ asset('images/cobb-500-broiler.jpeg') }}" alt=""
+                                    width="100%" height="150">
+                                <div class="card-body">
+                                    <h5 class="card-title">Cobb 500 Broilers</h5>
+                                    <p class="card-text">
+                                    <ul>
+                                        <li>Superior performace on lower cost feed ratio.</li>
+                                        <li>Lowest cost of live weight produced.</li>
+                                        <li>Excellent growth rate.</li>
+                                        <li>Most feed efficient</li>
+                                    </ul>
+                                    </p>
+                                    {{-- <div class="d-flex justify-content-between align-items-center">
+                                    <div class="btn-group">
+                                        <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+                                        <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
+                                    </div>
+                                    <small class="text-muted">9 mins</small>
+                                </div> --}}
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="card shadow-sm">
+                                <img class="img-style" src="{{ asset('images/Ross-308-Broiler.png') }}" alt=""
+                                    width="100%" height="150">
+                                <div class="card-body">
+                                    <h5 class="card-title">Ross 308 Broilers</h5>
+                                    <p class="card-text">
+                                    <ul>
+                                        <li> It gives consistent performance
+                                            in the broiler house. </li>
+                                        <li> Produces a high number
+                                            of eggs combined with
+                                            good hatchability </li>
+                                    </ul>
+                                    </p>
+                                    {{-- <div class="d-flex justify-content-between align-items-center">
+                                    <div class="btn-group">
+                                        <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+                                        <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
+                                    </div>
+                                    <small class="text-muted">9 mins</small>
+                                </div> --}}
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="card shadow-sm">
+                                <img class="img-style" src="{{ asset('images/Concetrates.jpeg') }}" alt=""
+                                    width="100%" height="150">
+                                <div class="card-body">
+                                    <h5 class="card-title">Concentrates/Feeds</h5>
+                                    <p class="card-text">
+                                    <ul>
+                                        <li>Pre-starter feeds</li>
+                                        <li>Layer concentrates</li>
+                                        <li>Broiler concentrates</li>
+                                    </ul>
+                                    </p>
+                                    {{-- <div class="d-flex justify-content-between align-items-center">
+                                    <div class="btn-group">
+                                        <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+                                        <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
+                                    </div>
+                                    <small class="text-muted">9 mins</small>
+                                </div> --}}
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col">
+                            <div class="card shadow-sm">
+                                <img class="img-style" src="{{ asset('images/hatch.jpeg') }}" alt="" width="100%"
+                                    height="150">
+                                <div class="card-body">
+                                    <h5 class="card-title">Hatching Eggs</h5>
+                                    <p class="card-text">
+                                    <ul>
+                                        <li>Layers</li>
+                                        <li>Broilers</li>
+                                        <li>Kuroilers</li>
+                                    </ul>
+                                    </p>
+                                    {{-- <div class="d-flex justify-content-between align-items-center">
+                                    <div class="btn-group">
+                                        <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+                                        <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
+                                    </div>
+                                    <small class="text-muted">9 mins</small>
+                                </div> --}}
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="card shadow-sm">
+                                <img class="img-style" src="{{ asset('images/day-old.jpeg') }}" alt="" width="100%"
+                                    height="150">
+                                <div class="card-body">
+                                    <h5 class="card-title">Day Old Chicks</h5>
+                                    <p class="card-text">
+                                    <ul>
+                                        <li>One day old.</li>
+                                        <li>Vaccinated.</li>
+                                        <li>Ready for brooding</li>
+                                    </ul>
+                                    </p>
+                                    {{-- <div class="d-flex justify-content-between align-items-center">
+                                    <div class="btn-group">
+                                        <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+                                        <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
+                                    </div>
+                                    <small class="text-muted">9 mins</small>
+                                </div> --}}
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
     </section>
-
     {{-- products section --}}
     <section id="services">
         <div class="container px-4 py-5 mt-4" id="custom-cards">
@@ -304,261 +463,7 @@
             </div>
         </div>
     </section>
-    {{-- types of products --}}
-    <section id="products">
-        <div class="album py-5 bg-light" id="products">
-            <div class="container">
-                <div class="container px-4 py-5" id="custom-cards">
-                    <h2 class="pb-2">Our Products</h2>
 
-                    <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3 mt-4">
-                        <div class="col">
-                            <div class="card shadow-sm">
-                                <img class="img-style" src="{{ asset('images/Lohmann-Brown-Layer.png') }}" alt=""
-                                    width="100%" height="150">
-
-                                <div class="card-body">
-                                    <h5 class="card-title">Lohmann Brown Layer</h5>
-                                    <p class="card-text">
-                                    <ul>
-                                        <li>It is commercially bred, used mainly for egg laying, at which they excel</li>
-                                        <li>They start laying at around 18 weeks of age, lays for 2 years of production</li>
-                                        <li>It gives a brown egg shell.</li>
-                                    </ul>
-                                    </p>
-                                    {{-- <div class="d-flex justify-content-between align-items-center">
-                                    <div class="btn-group">
-                                        <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
-                                        <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
-                                    </div>
-                                    <small class="text-muted">9 mins</small>
-                                </div> --}}
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col">
-                            <div class="card shadow-sm">
-                                <img class="img-style" src="{{ asset('images/Hy-Line-Brown-Layer.jpeg') }}" alt=""
-                                    width="100%" height="150">
-                                <div class="card-body">
-                                    <h5 class="card-title">Hy-Line Brown Layers</h5>
-                                    <p class="card-text">
-                                    <ul>
-                                        <li> Prolific Producer, Rich Brown Eggs, Hardy Layer</li>
-                                        <li> The Hy-Line Brown is the world's most balanced brown egg layer. She
-                                            produces over 355 rich brown
-                                            eggs to 80 weeks, peaks well and begins lay early with optimum egg size. These
-                                            traits combined with
-                                            an excellent temperament, unrivalled feed efficiency, the best interior egg
-                                            quality in the market and
-                                            unbeatable liveability and feather cover give the Hy-Line Brown the perfect
-                                            balance for both
-                                            Enriched Colony and Alternative production systems, which means more profit for
-                                            the poultry
-                                            producer.</li>
-                                        <li> With the Hy-Line Brown's superior performance and world beating
-                                            efficiencies it's the perfect choice
-                                            for a more profitable future. </li>
-                                    </ul>
-                                    </p>
-                                    {{-- <div class="d-flex justify-content-between align-items-center">
-                                    <div class="btn-group">
-                                        <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
-                                        <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
-                                    </div>
-                                    <small class="text-muted">9 mins</small>
-                                </div> --}}
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col">
-                            <div class="card shadow-sm">
-                                <img class="img-style" src="{{ asset('images/Hy-Line-W-80.jpeg') }}" alt=""
-                                    width="100%" height="150">
-                                <div class="card-body">
-                                    <h5 class="card-title">Hy-Line W80</h5>
-                                    <p class="card-text">
-                                    <ul>
-                                        <li>Robust, Prolific, Strong Performance in Alternative Systems, Long Single-Cycle
-                                            Lay</li>
-                                        <li> The Hy-Line W-80 is a robust white egg layer for all housing systems and
-                                            environments. This bird
-                                            delivers prolific egg numbers, excellent egg shell strength, and strong
-                                            performance under
-                                            challenging environments and low-density feed rations. </li>
-                                        <li> The W-80 is adaptable to alternative production systems and remains calm for
-                                            easy management.
-                                            For markets requiring a larger egg size, the W-80 Plus gives producers the same
-                                            great traits with an
-                                            egg weight profile two grams heavier.
-                                        </li>
-                                        <li>Its persistency for long single-cycle lay means more eggs on five grams less
-                                            feed. Producers gain
-                                            more profitability with a feed savings of approximately two kilograms per bird
-                                            per year versus
-                                            competing brands.
-                                        </li>
-                                    </ul>
-                                    </p>
-                                    {{-- <div class="d-flex justify-content-between align-items-center">
-                                    <div class="btn-group">
-                                        <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
-                                        <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
-                                    </div>
-                                    <small class="text-muted">9 mins</small>
-                                </div> --}}
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="col">
-                            <div class="card shadow-sm">
-                                <img class="img-style" src="{{ asset('images/parents.gif') }}" alt="" width="100%"
-                                    height="150">
-                                <div class="card-body">
-                                    <h5 class="card-title">Kuroilers</h5>
-                                    <p class="card-text">
-                                    <ul>
-                                        <li>It matures in about 10 weeks.</li>
-                                        <li>At maturity, The hen weighs about 3.5kg</li>
-                                        <li>It starts laying eggs at 5 months</li>
-                                        <li>At 4 months, they are ready to be sold</li>
-                                    </ul>
-                                    </p>
-                                    {{-- <div class="d-flex justify-content-between align-items-center">
-                                    <div class="btn-group">
-                                        <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
-                                        <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
-                                    </div>
-                                    <small class="text-muted">9 mins</small>
-                                </div> --}}
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col">
-                            <div class="card shadow-sm">
-                                <img class="img-style" src="{{ asset('images/cobb-500-broiler.jpeg') }}" alt=""
-                                    width="100%" height="150">
-                                <div class="card-body">
-                                    <h5 class="card-title">Cobb 500 Broilers</h5>
-                                    <p class="card-text">
-                                    <ul>
-                                        <li>Superior performace on lower cost feed ratio.</li>
-                                        <li>Lowest cost of live weight produced.</li>
-                                        <li>Excellent growth rate.</li>
-                                        <li>Most feed efficient</li>
-                                    </ul>
-                                    </p>
-                                    {{-- <div class="d-flex justify-content-between align-items-center">
-                                    <div class="btn-group">
-                                        <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
-                                        <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
-                                    </div>
-                                    <small class="text-muted">9 mins</small>
-                                </div> --}}
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col">
-                            <div class="card shadow-sm">
-                                <img class="img-style" src="{{ asset('images/Ross-308-Broiler.png') }}" alt=""
-                                    width="100%" height="150">
-                                <div class="card-body">
-                                    <h5 class="card-title">Ross 308 Broilers</h5>
-                                    <p class="card-text">
-                                    <ul>
-                                        <li> It gives consistent performance
-                                            in the broiler house. </li>
-                                        <li> Produces a high number
-                                            of eggs combined with
-                                            good hatchability </li>
-                                    </ul>
-                                    </p>
-                                    {{-- <div class="d-flex justify-content-between align-items-center">
-                                    <div class="btn-group">
-                                        <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
-                                        <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
-                                    </div>
-                                    <small class="text-muted">9 mins</small>
-                                </div> --}}
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col">
-                            <div class="card shadow-sm">
-                                <img class="img-style" src="{{ asset('images/Concetrates.jpeg') }}" alt=""
-                                    width="100%" height="150">
-                                <div class="card-body">
-                                    <h5 class="card-title">Concentrates/Feeds</h5>
-                                    <p class="card-text">
-                                    <ul>
-                                        <li>Pre-starter feeds</li>
-                                        <li>Layer concentrates</li>
-                                        <li>Broiler concentrates</li>
-                                    </ul>
-                                    </p>
-                                    {{-- <div class="d-flex justify-content-between align-items-center">
-                                    <div class="btn-group">
-                                        <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
-                                        <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
-                                    </div>
-                                    <small class="text-muted">9 mins</small>
-                                </div> --}}
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="col">
-                            <div class="card shadow-sm">
-                                <img class="img-style" src="{{ asset('images/hatch.jpeg') }}" alt="" width="100%"
-                                    height="150">
-                                <div class="card-body">
-                                    <h5 class="card-title">Hatching Eggs</h5>
-                                    <p class="card-text">
-                                    <ul>
-                                        <li>Layers</li>
-                                        <li>Broilers</li>
-                                        <li>Kuroilers</li>
-                                    </ul>
-                                    </p>
-                                    {{-- <div class="d-flex justify-content-between align-items-center">
-                                    <div class="btn-group">
-                                        <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
-                                        <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
-                                    </div>
-                                    <small class="text-muted">9 mins</small>
-                                </div> --}}
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col">
-                            <div class="card shadow-sm">
-                                <img class="img-style" src="{{ asset('images/day-old.jpeg') }}" alt="" width="100%"
-                                    height="150">
-                                <div class="card-body">
-                                    <h5 class="card-title">Day Old Chicks</h5>
-                                    <p class="card-text">
-                                    <ul>
-                                        <li>One day old.</li>
-                                        <li>Vaccinated.</li>
-                                        <li>Ready for brooding</li>
-                                    </ul>
-                                    </p>
-                                    {{-- <div class="d-flex justify-content-between align-items-center">
-                                    <div class="btn-group">
-                                        <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
-                                        <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
-                                    </div>
-                                    <small class="text-muted">9 mins</small>
-                                </div> --}}
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
     {{-- contact us info --}}
     <section id="contact">
 
