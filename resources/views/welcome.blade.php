@@ -23,12 +23,11 @@
         <div class="row header" id="home">
             <div class="col-sm-12">
                 <div class="center">
-                    <span class="heading-main">African Choice </span>
-                    <span class="heading-sub mb-4 border-bottom border-teal">Holdings</span>
+                    <span class="heading-main">African Choice Holdings ltd</span>
+                    <span class="heading-sub mb-4 border-bottom border-teal">Uganda</span>
                     <span class="heading-sub P-4">"Heart of Perfect Farming."</span></p>
                     <a class="btn btn-warning btn-lg text-success" style="width:13rem; border-radius: 100px;"
-                        href="#about-us">Get
-                        started</a>
+                        href="#about-us">Learn More</a>
                 </div>
             </div>
         </div>

@@ -1,6 +1,6 @@
  <nav class="navbar navbar-expand-md navbar-dark bg-dark p-4 fixed-top" aria-label="Fourth navbar example">
      <div class="container-fluid container">
-         <a class="navbar-brand" href="#">African Choice Holdings</a>
+         <a class="navbar-brand" href="#">African Choice Holdings ltd</a>
          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarsExample04"
              aria-controls="navbarsExample04" aria-expanded="false" aria-label="Toggle navigation">
              <span class="navbar-toggler-icon"></span>
