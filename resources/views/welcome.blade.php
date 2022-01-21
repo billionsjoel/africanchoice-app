@@ -53,7 +53,24 @@
             </div>
         </div>
     </section>
-
+    <section id="videos">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="ratio ratio-16x9">
+                        <iframe src="https://www.youtube.com/embed/zpasOULjyy-n8?rel=0x2" title="YouTube video"
+                            allowfullscreen></iframe>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="ratio ratio-16x9">
+                        <iframe src="https://www.youtube.com/embed/zpOULaasjyy-n8?rel=02x" title="YouTube video"
+                            allowfullscreen></iframe>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 
     {{-- types of products --}}
     <section id="products">
