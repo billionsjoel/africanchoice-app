@@ -39,21 +39,34 @@
             <img src="{{ asset('images/logo.jpeg') }}" alt="logo" height="150em" width="165em">
             <h1 class="display-5 fw-bold">Background</h1>
             <div class="col-lg-6 mx-auto">
-                <p class="lead mb-4">African Choice holdings Limited is a fast-growing Agro
-                    based company dealing in a wide range of agro based
-                    products and services. African Choice Holdings imports
-                    high quality pre-vaccinated day-old chicks, hatching
-                    eggs, parent stock, concentrates from its strategic
-                    partners HasTavuk and Bregan based in Turkey and
-                    Netherland, these are ene of the biggest exporters of
-                    high Quality Agro based products in the whole of
-                    Europe. African Choice Holdings offers Consultations
-                    veterinary services, Construction of poultry farms and
-                    management, farming trainings</p>
+                <p class="lead mb-4">African Choice holdings Limited is a fast-growing Agro based company dealing in a
+                    wide range of Agro based products and services.
+                    African Choice Holdings imports high quality pre-vaccinated day-old chicks, hatching eggs, parent stock,
+                    concentrates from its strategic partners Garanti and Bregan based in Turkey and Netherland,
+                    these are one of the biggest exporters of high Quality Agro based products in the whole of Europe.
+                </p>
                 <div class="d-grid gap-2 d-sm-flex justify-content-sm-center">
                     <a type="button" href="#hanging-icons" class="btn btn-success btn-lg px-4 gap-3 text-light">Read
                         More</a>
                     <a type="button" href="#contact" class="btn btn-outline-secondary btn-lg px-4">Contact Us</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="videos">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="ratio ratio-16x9">
+                        <iframe src="https://www.youtube.com/embed/zpasOULjyy-n8?rel=0x2" title="YouTube video"
+                            allowfullscreen></iframe>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="ratio ratio-16x9">
+                        <iframe src="https://www.youtube.com/embed/zpOULaasjyy-n8?rel=02x" title="YouTube video"
+                            allowfullscreen></iframe>
+                    </div>
                 </div>
             </div>
         </div>
@@ -65,7 +78,6 @@
             <div class="container">
                 <div class="container px-4 py-5" id="custom-cards">
                     <h2 class="pb-2">Our Products</h2>
-
                     <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3 mt-4">
                         <div class="col">
                             <div class="card shadow-sm">
