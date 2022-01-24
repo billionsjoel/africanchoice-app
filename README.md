@@ -14,7 +14,7 @@ African Choice holdings Limited is a fast-growing Agro based company dealing in 
 
 ## Contributing
 
-Thank you for considering contributing to the scribehouse website! The contribution guide can be found in the [sh-app repo](https://github.com/billionsjoel/sh-app).
+Thank you for considering contributing to the scribehouse website! The contribution guide can be found in the [africanchoice-app repo](https://github.com/billionsjoel/africanchoice-app).
 
 ## Security Vulnerabilities
 
