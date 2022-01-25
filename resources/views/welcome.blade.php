@@ -56,15 +56,40 @@
     <section id="videos">
         <div class="container">
             <div class="row">
-                <div class="col-md-6">
+                <div class="col-md-6 mt-2">
                     <div class="ratio ratio-16x9">
-                        <iframe src="https://www.youtube.com/embed/zpasOULjyy-n8?rel=0x2" title="YouTube video"
+                        {{-- <iframe src="https://youtu.be/GXrMju92s1A" title="YouTube video" allowfullscreen></iframe> --}}
+                        <iframe width="1280" height="905" src="https://www.youtube.com/embed/GXrMju92s1A"
+                            title="YouTube video player" frameborder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                             allowfullscreen></iframe>
                     </div>
                 </div>
-                <div class="col-md-6">
+                <div class="col-md-6 mt-2">
                     <div class="ratio ratio-16x9">
-                        <iframe src="https://www.youtube.com/embed/zpOULaasjyy-n8?rel=02x" title="YouTube video"
+                        {{-- <iframe src="https://www.youtube.com/embed/zpOULaasjyy-n8?rel=02x" title="YouTube video"
+                            allowfullscreen></iframe> --}}
+                        <iframe src="https://www.youtube.com/embed/61ZIxnLxUcM" title="YouTube video player" frameborder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                            allowfullscreen></iframe>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-6 mt-2">
+                    <div class="ratio ratio-16x9">
+                        {{-- <iframe src="https://youtu.be/GXrMju92s1A" title="YouTube video" allowfullscreen></iframe> --}}
+                        <iframe src="https://www.youtube.com/embed/kO2kVAfsYeA" title="YouTube video player" frameborder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                            allowfullscreen></iframe>
+                    </div>
+                </div>
+                <div class="col-md-6 mt-2">
+                    <div class="ratio ratio-16x9">
+                        {{-- <iframe src="https://www.youtube.com/embed/zpOULaasjyy-n8?rel=02x" title="YouTube video"
+                            allowfullscreen></iframe> --}}
+                        <iframe src="https://www.youtube.com/embed/_kqaElVer_k" title="YouTube video player" frameborder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                             allowfullscreen></iframe>
                     </div>
                 </div>
