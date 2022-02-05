@@ -9,22 +9,22 @@
          <div class="collapse navbar-collapse" id="navbarsExample04">
              <ul class="navbar-nav ms-auto mb-2 mb-md-0">
                  <li class="nav-item">
-                     <a class="nav-link active" aria-current="page" href="#">Home</a>
+                     <a class="nav-link active" aria-current="page" href="{{ url('/') }}">Home</a>
                  </li>
                  <li class="nav-item">
-                     <a class="nav-link" href="#about-us">About us</a>
+                     <a class="nav-link" href="{{ url('/#about-us') }}">About us</a>
                  </li>
                  <li class="nav-item">
-                     <a class="nav-link" href="#products">Products</a>
+                     <a class="nav-link" href="{{ url('/#products') }}">Products</a>
                  </li>
                  <li class="nav-item">
-                     <a class="nav-link" href="#services">Services</a>
+                     <a class="nav-link" href="{{ url('/#services') }}">Services</a>
                  </li>
                  <li class="nav-item">
-                     <a class="nav-link" href="/gallery">Gallery</a>
+                     <a class="nav-link" href="{{ url('/gallery') }}">Gallery</a>
                  </li>
                  <li class="nav-item">
-                     <a class="nav-link" href="#contact">Contact Us</a>
+                     <a class="nav-link" href="{{ url('/#contact') }}">Contact Us</a>
                  </li>
                  {{-- <li class="nav-item dropdown">
                      <a class="nav-link dropdown-toggle" href="#" id="dropdown04" data-bs-toggle="dropdown"
