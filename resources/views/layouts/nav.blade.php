@@ -21,7 +21,7 @@
                      <a class="nav-link" href="#services">Services</a>
                  </li>
                  <li class="nav-item">
-                     <a class="nav-link" href="{{ url('/gallery') }}">Gallery</a>
+                     <a class="nav-link" href="/gallery">Gallery</a>
                  </li>
                  <li class="nav-item">
                      <a class="nav-link" href="#contact">Contact Us</a>
