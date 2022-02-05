@@ -27,7 +27,8 @@
     <section id="contact">
         <div class="container">
             <div class="row">
-
+                <div class="col-md-4">
+                </div>
             </div>
         </div>
         <div class="container col-xl-10 col-xxl-8 px-4 py-5">
